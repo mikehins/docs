@@ -81,7 +81,7 @@ For the majority of the remaining collection documentation, we'll discuss each m
 
 <style>
     .collection-method-list > p {
-        columns: 10.8em 3; -moz-columns: 10.8em 3; -webkit-columns: 10.8em 3;
+        display: flex; flex-wrap: wrap;
     }
 
     .collection-method-list a {
@@ -89,6 +89,7 @@ For the majority of the remaining collection documentation, we'll discuss each m
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        width:33%;
     }
 </style>
 
